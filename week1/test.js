@@ -29,3 +29,15 @@ if (a > z) {
 }
 console.log(highest);
 //6
+var myPlaces = [];
+console.log('the value of my array will be: Undefined');
+console.log(myPlaces);
+var myFavAnimals = ["Dogs", "Rabbits", "Horses"];
+console.log(myFavAnimals);
+var myFavAnmsAndDans = [myFavAnimals, "baby pig"];
+console.log(myFavAnmsAndDans);
+//7
+let myString = "this is a test"
+console.log(myString);
+console.log(myString.length);
+//8
