@@ -16,8 +16,17 @@ function printObject(x) {
 printObject(myObject);
 //4
 function vehicleType(color, code) {
-    var 1 = "car";
-    var 2 = "motorbike";
-    console.log("a " + color + code)
-
+    if (code == 1) {
+        console.log(color + " car.");
+    }
+    else if(code == 2) {
+        console.log(color + " motorbike.")
+    }
+    else {
+        console.log("Not a valid value")
+    }
 }
+vehicleType("blue", 2);
+//5
+3 === 3 ? console.log("yes") : console.log("no");
+//6
