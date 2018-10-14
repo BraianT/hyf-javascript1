@@ -30,3 +30,16 @@ vehicleType("blue", 2);
 //5
 3 === 3 ? console.log("yes") : console.log("no");
 //6
+//12 Create an empty object.
+const obj1 = {
+
+}
+
+//13 
+const obj2 = {
+    teachers: ["rasmus", "mike", "tomy", "viktor"],
+
+    languages: ["javaScript, HTML/CSS"]
+}
+
+console.log(obj2);

@@ -91,3 +91,6 @@ theY = theY % 3;
 console.log(theY);
 10//
 let mixedArray = ["String", 50. [2, "array", "inside"]];
+
+6/0 === 10/0 ? console.log("Same") : console.log(Different);
+
